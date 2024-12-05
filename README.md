@@ -1,5 +1,14 @@
 # cap-gene-filtering
 
+## Gene Lists
+
+The `gene-lists` directory in this repository contains all the files used to prepare the lists of filtered-out genes. 
+
+- The complete list of **Homo sapiens** genes supported by CAP can be found in [homo_sapiens.csv](gene-lists/homo_sapiens.csv).
+- The list of genes ignored by CAP when the gene filtering flag is enabled is available in [filtered_out.csv](gene-lists/filtered_out.csv). 
+
+## Filtering procedure
+
 Gene filtering is based on filtering by locus group and locus type terms from the [HGNC Statistics & files](https://www.genenames.org/download/statistics-and-files/) and a [curated list of BCR and TCR genes](https://github.com/nealpsmith/neals_python_functions/tree/master/neals_python_functions/analysis/db).
 
 
