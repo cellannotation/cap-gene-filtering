@@ -24,12 +24,13 @@ CAP automatically filters out genes which are often over-expressed but biologica
 - Example: For MT-RNR2 we filter “MT-RNR2 like 12 (pseudogene)”
   
 **Ribosomal genes**
-- All genes where the “Locus type” contains the word “ribosomal”
+- All genes where the “Gene group” contains the word “ribosomal”
   
 **Ribosomal pseudogenes**
 - All pseudogenes, subset by “Locus Type == pseudogene,” that contain the word “ribosomal” in the “Approved name” column
+or that contain the a corresponding ribosomal gene name in their “Approved name” column
 
-**lncRNA genes**
+- **lncRNA genes**
 - All genes where the “Locus type” contains “RNA, long non-coding”
 
 **lncRNA pseudogenes**
